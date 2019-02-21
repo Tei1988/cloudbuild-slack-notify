@@ -1,0 +1,21 @@
+{
+  "name": "slack-webhook",
+  "version": "1.0.0",
+  "description": "notify cloudbuild result",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd jsx-slack && tsc && cd - && tsc",
+    "deploy": "gcloud beta functions deploy cloudBuildNotifier --env-vars-file config.yaml --runtime nodejs8 --trigger-topic 'cloud-builds'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@slack/client": "^4.9.0",
+    "@speee/jsx-slack": "file:jsx-slack"
+  }
+}
