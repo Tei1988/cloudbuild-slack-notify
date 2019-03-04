@@ -16,6 +16,9 @@
 
 node_modules
 
+*.js.map
 tsconfig.json
-jsx-slack/.git
-jsx-slack/node_modules
+config.yaml
+config.yaml.sample
+LICENSE.txt
+README.md

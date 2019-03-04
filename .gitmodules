@@ -1,4 +1,0 @@
-[submodule "jsx-slack"]
-	path = jsx-slack
-	branch = implement-a-tag
-	url = https://github.com/Tei1988/jsx-slack

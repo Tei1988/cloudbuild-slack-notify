@@ -1,5 +1,5 @@
 /** @jsx JSXSlack.h */
-import JSXSlack, { Block, Section, Divider, Field } from '@speee/jsx-slack';
+import JSXSlack, { Block, Section, Divider, Field } from '@speee-js/jsx-slack';
 import { CloudBuildMessage } from './Interfaces';
 
 function message(status: string): string {

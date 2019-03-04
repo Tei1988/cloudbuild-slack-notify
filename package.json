@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "@slack/client": "^4.9.0",
-    "@speee/jsx-slack": "file:jsx-slack"
+    "@speee-js/jsx-slack": "^0.1.0"
   }
 }
